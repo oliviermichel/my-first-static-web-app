@@ -10,7 +10,20 @@
 
 <body>
   <main>
-    <h1>Vanilla JavaScript App</h1>
+    <form id="form" action="/api/processForm" method="POST">
+      <div>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Email..">
+    
+        <label for="kod1">Kod1</label>
+        <input type="text" id="kod1" name="kod1" placeholder="Kod1..">
+
+        <label for="kod2">Kod2</label>
+        <input type="text" id="kod2" name="kod2" placeholder="Kod2..">
+ 
+        <input type="submit" value="Submit">
+      </div>
+    </form>
   </main>
 </body>
 
